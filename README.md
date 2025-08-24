@@ -16,6 +16,11 @@
 - Each pixel costs 0.001 HBAR (configurable in [`hashplace/src/config/hedera.ts`](hashplace/src/config/hedera.ts)) and is recorded on-chain.
 - Placements are represented as Hedera transactions so they can be audited via the mirror node.
 
+## Screenshot
+A preview of the UI:
+
+![Screenshot](public/screenshot.png)
+
 ## Tech stack
 - React (v18)
 - TypeScript
