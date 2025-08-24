@@ -16,13 +16,13 @@
 - Each pixel costs 0.001 HBAR (configurable in [`hashplace/src/config/hedera.ts`](hashplace/src/config/hedera.ts)) and is recorded on-chain.
 - Placements are represented as Hedera transactions so they can be audited via the mirror node.
 
-## Tech stack (key technologies)
+## Tech stack
 - React (v18)
 - TypeScript
 - Vite
 - react-konva / konva
-- Hedera: @hashgraph/sdk, HashConnect (demo)
-- viem (present for future wallet/RPC integration)
+- Hedera: @hashgraph/sdk
+- viem
 - Tailwind CSS + shadcn-ui
 - Additional: @tanstack/react-query, zod, react-hook-form, lucide-react, sonner
 
@@ -32,7 +32,7 @@
 - Live wallet / RPC integration using viem and real signing is in progress.
 - Hedera network and canvas constants are defined in [`hashplace/src/config/hedera.ts`](hashplace/src/config/hedera.ts).
 
-## Quickstart (development)
+## Quickstart
 1. Install Node.js (use nvm to manage versions if desired): https://github.com/nvm-sh/nvm#installing-and-updating
 2. From the project root:
    - npm i
