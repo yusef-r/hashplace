@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom cyber theme colors
+				'pixel-grid': 'hsl(var(--pixel-grid))',
+				'pixel-selected': 'hsl(var(--pixel-selected))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'neon-purple': 'hsl(var(--neon-purple))',
+				'neon-pink': 'hsl(var(--neon-pink))',
+				'canvas-bg': 'hsl(var(--canvas-bg))'
+			},
+			backgroundImage: {
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-pixel': 'var(--gradient-pixel)'
+			},
+			boxShadow: {
+				'neon': 'var(--glow-cyber)',
+				'neon-accent': 'var(--glow-accent)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
