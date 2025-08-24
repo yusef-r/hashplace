@@ -99,7 +99,7 @@ const HederaPlace: React.FC = () => {
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Join the decentralized pixel art canvas! Connect your wallet, select a pixel, 
             choose your color, and place your mark on the Hedera blockchain. 
-            Each pixel costs 0.00001 HBAR and is permanently recorded.
+            Each pixel costs 0.001 HBAR and is permanently recorded.
           </p>
         </div>
 
