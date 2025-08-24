@@ -52,10 +52,6 @@ Available scripts (from [`hashplace/package.json`](hashplace/package.json))
 - Configuration: Update network, account, mirror node, and fee values in [`hashplace/src/config/hedera.ts`](hashplace/src/config/hedera.ts) for production.
 - Persistence: Decide on on-chain vs off-chain storage for pixel state and implement sync + conflict resolution.
 
-## Contributing
-- Fork or create a feature branch, run the dev server, and open a PR with a clear description of changes.
-- When adding Hedera transaction logic, include tests and documentation for required keys, environment variables, and network configuration.
-
 ## License
 - MIT
 
