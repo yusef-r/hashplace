@@ -10,9 +10,11 @@
 - Wallet provider with demo HashConnect-like behavior: see [`hashplace/src/contexts/WalletContext.tsx`](hashplace/src/contexts/WalletContext.tsx).
 - Hooks and utilities under src/hooks and src/lib (see the codebase).
 
-## What it does
-- The app renders a 50x50 pixel grid (CANVAS_SIZE = 50) with responsive scaling. Click a pixel to select it, choose a color, and place a pixel.
-- Pixel rendering uses Konva via react-konva.
+## How it works
+- The app renders a 50x50 pixel grid (CANVAS_SIZE = 50) with responsive scaling.
+- Connect your wallet, select a pixel, choose a color, and place your mark on the Hedera blockchain. 
+- Each pixel costs 0.001 HBAR (configurable in [`hashplace/src/config/hedera.ts`](hashplace/src/config/hedera.ts)) and is recorded on-chain.
+- Placements are represented as Hedera transactions so they can be audited via the mirror node.
 
 ## Tech stack (key technologies)
 - React (v18)
