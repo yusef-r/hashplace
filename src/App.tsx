@@ -76,7 +76,7 @@ const HederaPlace: React.FC = () => {
                 asChild
               >
                 <a 
-                  href="https://github.com" 
+                  href="http://github.com/yusef-r/hashplace" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -134,7 +134,7 @@ const HederaPlace: React.FC = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-muted-foreground">
             <p className="mb-2">
-              Built with ❤️ for the Hedera ecosystem
+              Built for the Hedera ecosystem
             </p>
             <p className="text-sm">
               This is a demonstration dApp showing collaborative pixel art on Hedera's distributed ledger

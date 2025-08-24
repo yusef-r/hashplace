@@ -184,7 +184,7 @@ export const Controls: React.FC<ControlsProps> = ({
                 disabled={!isConnected || isSubmitting}
                 className="w-full bg-gradient-cyber text-primary-foreground hover:opacity-90 neon-glow-accent disabled:opacity-50"
               >
-                {isSubmitting ? 'Placing Pixel...' : 'Place Pixel (0.00001 HBAR)'}
+                {isSubmitting ? 'Placing Pixel...' : 'Place Pixel (0.001 HBAR)'}
               </Button>
             </div>
           ) : (
